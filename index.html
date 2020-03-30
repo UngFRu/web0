@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav196-2.png" />
+    <link rel="shortcut icon" href="img/fav196-2.png" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100i|Nanum+Myeongjo|Noto+Sans+KR:100,400,900&display=swap" rel="stylesheet">
+    <title>TRENDY SELLER</title>
+    <style>
+
+        .writing{
+            text-align: center;
+            margin:0 10% 10% 10%;
+        }
+
+        .title{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+            font-size:2em;
+            margin:10%;
+            text-align:center;
+        }
+
+        .box0{
+            width:auto;
+            height: auto;
+            border: 0.1px solid white;
+            border-radius:20px;
+            background-color:ghostwhite;
+            text-align: center;
+            margin: 7%;
+        }
+
+        body {
+            margin: 0px;
+            height:100%;
+            background-color:lightgray;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 100;
+            background-image: url(img/bg2.jpg);
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .header {
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+            color:white;
+            padding-top: 5em;
+            padding-bottom: 6.5em;
+            font-size: 3em;
+        }
+        .header0{
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+            color:white;
+            padding:0.5em;
+            font-size: 0.5em;
+        }
+
+        .footer{
+            background-color:black;
+            padding:5em;
+            font-family: 'NanumMyeongjo', serif;
+            color:white;
+            text-align:center;
+        }
+
+        .hbg{
+            border:0;
+            padding:0;
+        }
+
+        .nav {
+            font-family: 'Nanum Myeongjo', serif; /*네비게이션 바 폰트 설정 및 폰트 크기 설정*/
+        }
+
+        .nav-container {
+            height:auto;
+            margin: 0px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            padding: 0px;
+            position: fixed;
+            top: 0px;
+        }
+
+        .nav-item0 {
+            text-align:center;
+            list-style-type: none;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+            padding:0.5em;
+        }
+
+        .item-l{
+            text-decoration: none;
+            color: white;
+            padding: 0.7em;
+        }
+
+
+        .nav-item {
+            list-style-type: none;
+            padding: 0.7em 0px 0.7em 0px;
+        }
+
+        .nav-item:hover {
+        }
+
+        .item-a{
+            text-decoration: none;
+            color: white;
+            padding: 0.7em;
+        }
+
+            .item-a:hover {
+                color: black;
+                background-color: white;
+            }
+
+        /*이하는 드롭 다운 부분임*/
+        .dropdown {
+            background: black;
+            display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+            height:auto;
+            padding:0px;
+            margin-top:0.7em;
+            border:0px;
+            position:absolute;
+            width:auto;
+            list-style-type: none;
+        }
+
+        .dropdown-a{
+            text-decoration: none;
+            color: white;
+            padding:0.1em 0.3em 0.1em 0.3em;
+        }
+
+        .dropdown-a:hover{
+            color: black;
+            background-color: white;
+        }
+
+        .nav-item:hover .dropdown {
+            display:flex;   /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+            flex-direction:column
+        }
+
+        .dropdown-item {
+            margin: 0.1em 0px 0.1em 0px;
+        }
+
+        /*드롭 다운 정보 끝*/
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="header">
+            TRENDY SELLER
+            <div class="header0">
+                World Management,<br>
+                Our Technology.
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav-container">
+                <li class="nav-item0"><a href="#" class="item-l">TRENDY SELLER</a></li>
+                <li class="nav-item"><a href="#" class="item-a">1</a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item"><a href="#" class="dropdown-a">1-1</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-a">1-1</a></li>
+                        <li class="dropdown-item"><a href="#" class="dropdown-a">1-1</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="item-a">2</a></li>
+                <li class="nav-item"><a href="#" class="item-a">3</a></li>
+                <li class="nav-item"><a href="#" class="item-a">4</a></li>
+                <li class="nav-item"><a href="#" class="item-a">5</a></li>
+            </ul>
+        </div>
+        <div class="box0">
+            <div class="writing">
+                <div class="title">
+                    Lorem ipsum dolor sit amet,
+                </div>
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="aside">
+
+        </div>
+    </div>
+    <div class="footer">
+        아유썅 쓸 것도 없다
+    </div>
+</body>
+</html>
