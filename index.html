@@ -138,10 +138,14 @@
 
         /*본문의 박스 부분*/
         .box-container{
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
             border: 0.1px solid white;
             border-radius: 20px;
             background-color: white;
             margin:5%;
+            padding:2%;
             display: flex;
             flex-direction: row;
             justify-content:center;
@@ -150,17 +154,35 @@
         }
 
         .box-item{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 100;
             padding:2%;
             margin: 3%;
             border: 0.1px solid white;
-            border-radius: 20px;
+            border-radius: 10px;
             background-color: white;
             text-align: center;
             color: black;
-            box-shadow: 0px 0px 10px #000;;
-            flex-shrink: 1;
+            box-shadow: 0px 0px 10px #000;
+            justify-content:center;
         }
 
+        .thumb {
+            display: flex;
+            overflow: hidden;
+            height: 200px;
+            width: 200px;
+            border-radius:1000px;
+            justify-content:center;
+            text-align:center;
+        }
+
+        .thumb img {
+            display: block;
+            min-width: 100%;
+            min-height: 100%;
+            -ms-interpolation-mode: bicubic;
+        }
 
     </style>
 </head>
@@ -192,25 +214,58 @@
     </div>
     <div class="box-container">
         <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-a
         </div>
         <div class="box-item">
-            item-a
-        </div>
-        <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-b
         </div>
         <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-c
         </div>
         <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-d
         </div>
         <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-e
         </div>
         <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
             item-f
+        </div>
+        <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
+            item-g
+        </div>
+        <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
+            item-h
+        </div>
+        <div class="box-item">
+            <div class="thumb">
+                <img src="img/item.png">
+            </div>
+            item-i
         </div>
     </div>
     <div class="footer">
